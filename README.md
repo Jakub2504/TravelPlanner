@@ -25,7 +25,7 @@ It allows users to manage their travel itineraries, view trip details, and store
 - **GitHub Actions** (CI/CD)  
 
 ## 📌 Team Members
-- **Jakub Wysovki** – Developer 
+- **Jakub Wysocki** – Developer 
 - **Vítor da Silva Verbel** - Professor
 
 ## 📌 Setup & Installation
