@@ -1,1 +1,1 @@
-[{"state":{"code":"flowchart TD\n    A[Christmas] -->|Get money| B(Go shopping)\n    B --> C{Let me think}\n    C -->|One| D[Laptop]\n    C -->|Two| E[iPhone]\n    C -->|Three| F[fa:fa-car Car]\n  ","mermaid":"{\n  \"theme\": \"dark\"\n}","autoSync":true,"rough":false,"updateDiagram":true,"panZoom":false},"time":1740940549740,"type":"auto","id":"bcde3d28-f9e4-4993-88e4-dd13340cf774","name":"rapid-wall"}]
+
