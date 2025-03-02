@@ -1,0 +1,26 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Travel Planner</string>
+
+    <!-- General Buttons -->
+    <string name="back">Back</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="view_trips">View Trips</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Login</string>
+    <string name="user_id">User ID</string>
+    <string name="password">Password</string>
+    <string name="invalid_credentials">Invalid credentials, try again.</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About</string>
+    <string name="about_description">This is the Travel Planner app, designed to help you organize your trips efficiently.</string>
+    <string name="app_version">Version 1.0</string>
+    <string name="developers">Developed by: Your Team Name</string>
+
+    <!-- Terms & Conditions -->
+    <string name="terms_title">Terms &amp; Conditions</string>
+    <string name="terms_content">By using this app, you agree to our terms and conditions.</string>
+</resources>

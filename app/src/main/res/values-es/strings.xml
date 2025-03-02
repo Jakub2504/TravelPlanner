@@ -1,0 +1,26 @@
+<resources>
+    <!-- Nombre de la App -->
+    <string name="app_name">Planificador de Viajes</string>
+
+    <!-- Botones Generales -->
+    <string name="back">Atrás</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="view_trips">Ver viajes</string>
+
+    <!-- Pantalla de Inicio de Sesión -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="user_id">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="invalid_credentials">Credenciales incorrectas, inténtalo de nuevo.</string>
+
+    <!-- Acerca de -->
+    <string name="about_title">Acerca de</string>
+    <string name="about_description">Esta es la aplicación Travel Planner, diseñada para ayudarte a organizar tus viajes de manera eficiente.</string>
+    <string name="app_version">Versión 1.0</string>
+    <string name="developers">Desarrollado por: Tu equipo</string>
+
+    <!-- Términos y Condiciones -->
+    <string name="terms_title">Términos y Condiciones</string>
+    <string name="terms_content">Al usar esta aplicación, aceptas nuestros términos y condiciones.</string>
+</resources>
