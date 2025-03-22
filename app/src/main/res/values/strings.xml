@@ -1,26 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Name -->
-    <string name="app_name">Travel Planner</string>
+    <string name="app_name">FlyAway</string>
 
-    <!-- General Buttons -->
+    <!-- Common -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="confirm">Confirm</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
     <string name="back">Back</string>
-    <string name="logout">Logout</string>
-    <string name="login">Login</string>
+    <string name="app_logo_description">FlyAway App Logo</string>
+    <string name="retry">Retry</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_trips">Trips</string>
+    <string name="nav_itinerary">Itinerary</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About Us</string>
+    <string name="nav_terms">Terms &amp; Conditions</string>
+    <string name="nav_profile">Profile</string>
+    <string name="menu">Menu</string>
+
+    <!-- Language -->
+    <string name="language_english">English</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_catalan">Catalan</string>
+    <string name="language_polish">Polish</string>
+    <string name="select_language">Select language</string>
+    <string name="language_changed">Language changed successfully</string>
+
+    <!-- Profile -->
+    <string name="profile">Profile</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">Phone number</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="change_photo">Change photo</string>
+    <string name="profile_saved">Profile saved successfully</string>
+    <string name="profile_title">My Profile</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Welcome to FlyAway!</string>
+    <string name="no_trips_yet">You don\'t have any trips yet</string>
+    <string name="create_trip_prompt">Create your first trip to start your adventure!</string>
+    <string name="your_trips">Your Trips</string>
+    <string name="days_count">%d days</string>
+    <string name="create_trip">Create New Trip</string>
+    <string name="upcoming_trips">Upcoming Trips</string>
+    <string name="no_trips_message">No trips planned yet</string>
+    <string name="home_title">My Trips</string>
     <string name="view_trips">View Trips</string>
 
-    <!-- Login Screen -->
-    <string name="login_title">Login</string>
-    <string name="user_id">User ID</string>
-    <string name="password">Password</string>
-    <string name="invalid_credentials">Invalid credentials, try again.</string>
+    <!-- Trip Screen -->
+    <string name="trip_details">Trip Details</string>
+    <string name="trip_name">Trip Name</string>
+    <string name="destination">Destination</string>
+    <string name="trip_destination">Destination</string>
+    <string name="trip_dates">Dates</string>
+    <string name="trip_budget">Budget</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="select_start_date">Select start date</string>
+    <string name="select_end_date">Select end date</string>
+    <string name="required_start_date">Start date is required</string>
+    <string name="required_end_date">End date is required</string>
 
-    <!-- About Screen -->
-    <string name="about_title">About</string>
-    <string name="about_description">This is the Travel Planner app, designed to help you organize your trips efficiently.</string>
-    <string name="app_version">Version 1.0</string>
-    <string name="developers">Developed by: Your Team Name</string>
+    <!-- Itinerary Screen -->
+    <string name="itinerary">Itinerary</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="activity_name">Activity Name</string>
+    <string name="activity_time">Time</string>
+    <string name="activity_location">Location</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="currency">Currency</string>
+
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="login_title">Welcome to FlyAway</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation">Are you sure you want to log out?</string>
+    <string name="username">Username</string>
+    <string name="user_id">Username</string>
+    <string name="password">Password</string>
+    <string name="invalid_credentials">Invalid credentials</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    <string name="login_error">Login failed</string>
+    <string name="empty_username_error">Username cannot be empty</string>
+    <string name="empty_password_error">Password cannot be empty</string>
+    <string name="password_length_error">Password must be at least 6 characters</string>
+    <string name="test_credentials">Test credentials: admin/123456</string>
+
+    <!-- About -->
+    <string name="about">About</string>
+    <string name="about_title">About Us</string>
+    <string name="about_description">FlyAway is your app for easy and quick trip planning.</string>
+    <string name="app_version">Version 0.2.0</string>
+    <string name="version">Version</string>
+    <string name="developers">Jakub Wysocki</string>
+    <string name="about_us_content">FlyAway is a travel planning application designed to make your trip organization effortless. Our mission is to help you create memorable travel experiences with minimal hassle.</string>
+    <string name="about_contact">Contact us at: info@flyaway.com</string>
 
     <!-- Terms & Conditions -->
+    <string name="terms">Terms &amp; Conditions</string>
     <string name="terms_title">Terms &amp; Conditions</string>
-    <string name="terms_content">By using this app, you agree to our terms and conditions.</string>
+    <string name="terms_content">These are the terms and conditions for using the FlyAway app. By using FlyAway, you agree to abide by these terms and conditions. The app is provided "as is" without any warranties.</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="terms_last_updated">Last updated: May 2023</string>
+
+    <!-- Creación de Viaje -->
+    <string name="trip_duration">Duration: %d days</string>
+    <string name="add_day">Add Day</string>
+    <string name="no_days_message">No days added to this trip. Add one to start planning your itinerary!</string>
+    <string name="no_activities">No activities for this day</string>
+    <string name="description">Description</string>
+    <string name="location">Location</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="select_time">Select Time</string>
+    <string name="no_trip_found">Trip not found</string>
+
+    <!-- New strings for editing and deleting trips, days, and activities -->
+    <string name="edit_trip">Edit Trip</string>
+    <string name="delete_trip">Delete Trip</string>
+    <string name="delete_trip_confirmation">Are you sure you want to delete this trip? This action cannot be undone.</string>
+    <string name="edit_day">Edit Day</string>
+    <string name="delete_day">Delete Day</string>
+    <string name="delete_day_confirmation">Are you sure you want to delete this day and all its activities? This action cannot be undone.</string>
+    <string name="edit_activity">Edit Activity</string>
+    <string name="delete_activity">Delete Activity</string>
+    <string name="delete_activity_confirmation">Are you sure you want to delete this activity? This action cannot be undone.</string>
+    <string name="day_number_date">Day %1$d - %2$s</string>
 </resources>

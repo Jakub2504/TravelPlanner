@@ -1,26 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Nombre de la App -->
-    <string name="app_name">Planificador de Viajes</string>
+    <!-- App Name -->
+    <string name="app_name">FlyAway</string>
 
-    <!-- Botones Generales -->
+    <!-- Common -->
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
     <string name="back">Atrás</string>
-    <string name="logout">Cerrar sesión</string>
-    <string name="login">Iniciar sesión</string>
-    <string name="view_trips">Ver viajes</string>
+    <string name="app_logo_description">Logo de la aplicación FlyAway</string>
+    <string name="retry">Reintentar</string>
+    <string name="close">Cerrar</string>
+    <string name="open">Abrir</string>
 
-    <!-- Pantalla de Inicio de Sesión -->
-    <string name="login_title">Iniciar Sesión</string>
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_trips">Viajes</string>
+    <string name="nav_itinerary">Itinerario</string>
+    <string name="nav_settings">Ajustes</string>
+    <string name="nav_about">Sobre Nosotros</string>
+    <string name="nav_terms">Términos y Condiciones</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="menu">Menú</string>
+
+    <!-- Language -->
+    <string name="language_english">Inglés</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_catalan">Catalán</string>
+    <string name="language_polish">Polaco</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="language_changed">Idioma cambiado correctamente</string>
+
+    <!-- Profile -->
+    <string name="profile">Perfil</string>
+    <string name="profile_name">Nombre</string>
+    <string name="profile_email">Correo electrónico</string>
+    <string name="profile_phone">Número de teléfono</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="save_profile">Guardar Perfil</string>
+    <string name="change_photo">Cambiar foto</string>
+    <string name="profile_saved">Perfil guardado correctamente</string>
+    <string name="profile_title">Mi Perfil</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">¡Bienvenido a FlyAway!</string>
+    <string name="create_trip">Crear Nuevo Viaje</string>
+    <string name="upcoming_trips">Próximos Viajes</string>
+    <string name="no_trips_message">Aún no hay viajes planificados</string>
+    <string name="home_title">Mis Viajes</string>
+    <string name="view_trips">Ver Viajes</string>
+    <string name="no_trips_yet">Aún no tienes viajes</string>
+    <string name="create_trip_prompt">¡Crea tu primer viaje para empezar tu aventura!</string>
+    <string name="your_trips">Tus Viajes</string>
+    <string name="days_count">%d días</string>
+
+    <!-- Trip Screen -->
+    <string name="trip_details">Detalles del Viaje</string>
+    <string name="trip_name">Nombre del Viaje</string>
+    <string name="destination">Destino</string>
+    <string name="trip_destination">Destino</string>
+    <string name="trip_dates">Fechas</string>
+    <string name="trip_budget">Presupuesto</string>
+    <string name="start_date">Fecha de inicio</string>
+    <string name="end_date">Fecha de fin</string>
+    <string name="select_start_date">Seleccionar fecha de inicio</string>
+    <string name="select_end_date">Seleccionar fecha de fin</string>
+    <string name="required_start_date">La fecha de inicio es obligatoria</string>
+    <string name="required_end_date">La fecha de fin es obligatoria</string>
+
+    <!-- Itinerary Screen -->
+    <string name="itinerary">Itinerario</string>
+    <string name="add_activity">Añadir Actividad</string>
+    <string name="activity_name">Nombre de Actividad</string>
+    <string name="activity_time">Hora</string>
+    <string name="activity_location">Ubicación</string>
+
+    <!-- Settings -->
+    <string name="settings">Ajustes</string>
+    <string name="theme">Tema</string>
+    <string name="language">Idioma</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="currency">Moneda</string>
+
+    <!-- Authentication -->
+    <string name="login">Iniciar sesión</string>
+    <string name="login_title">Bienvenido a FlyAway</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="logout_confirmation">¿Estás seguro que deseas cerrar sesión?</string>
+    <string name="username">Usuario</string>
     <string name="user_id">Usuario</string>
     <string name="password">Contraseña</string>
-    <string name="invalid_credentials">Credenciales incorrectas, inténtalo de nuevo.</string>
+    <string name="invalid_credentials">Credenciales inválidas</string>
+    <string name="show_password">Mostrar contraseña</string>
+    <string name="hide_password">Ocultar contraseña</string>
+    <string name="login_error">Error de inicio de sesión</string>
+    <string name="empty_username_error">El nombre de usuario no puede estar vacío</string>
+    <string name="empty_password_error">La contraseña no puede estar vacía</string>
+    <string name="password_length_error">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="test_credentials">Credenciales de prueba: admin/123456</string>
 
-    <!-- Acerca de -->
-    <string name="about_title">Acerca de</string>
-    <string name="about_description">Esta es la aplicación Travel Planner, diseñada para ayudarte a organizar tus viajes de manera eficiente.</string>
-    <string name="app_version">Versión 1.0</string>
-    <string name="developers">Desarrollado por: Tu equipo</string>
+    <!-- About -->
+    <string name="about">Acerca de</string>
+    <string name="about_title">Sobre Nosotros</string>
+    <string name="about_description">FlyAway es tu aplicación para planificar viajes de forma fácil y rápida.</string>
+    <string name="app_version">Versión 0.2.0</string>
+    <string name="version">Versión</string>
+    <string name="developers">Jakub Wysocki</string>
+    <string name="about_us_content">FlyAway es una aplicación de planificación de viajes diseñada para hacer que la organización de tu viaje sea sin esfuerzo. Nuestra misión es ayudarte a crear experiencias de viaje memorables con el mínimo de complicaciones.</string>
+    <string name="about_contact">Contáctanos en: info@flyaway.com</string>
 
-    <!-- Términos y Condiciones -->
+    <!-- Terms & Conditions -->
+    <string name="terms">Términos y Condiciones</string>
     <string name="terms_title">Términos y Condiciones</string>
-    <string name="terms_content">Al usar esta aplicación, aceptas nuestros términos y condiciones.</string>
-</resources>
+    <string name="terms_content">Estos son los términos y condiciones para usar la aplicación FlyAway. Al usar FlyAway, aceptas cumplir con estos términos y condiciones. La aplicación se proporciona "tal cual" sin ninguna garantía.</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="terms_last_updated">Última actualización: Mayo 2023</string>
+    
+    <!-- Creación de Viaje -->
+    <string name="trip_duration">Duración: %d días</string>
+    <string name="add_day">Añadir Día</string>
+    <string name="no_days_message">No hay días añadidos a este viaje. ¡Añade uno para comenzar a planificar tu itinerario!</string>
+    <string name="no_activities">No hay actividades para este día</string>
+    <string name="description">Descripción</string>
+    <string name="location">Ubicación</string>
+    <string name="start_time">Hora de Inicio</string>
+    <string name="end_time">Hora de Fin</string>
+    <string name="select_time">Seleccionar Hora</string>
+    <string name="no_trip_found">No se encontró el viaje</string>
+
+    <!-- New strings for editing and deleting trips, days, and activities -->
+    <string name="edit_trip">Editar Viaje</string>
+    <string name="delete_trip">Eliminar Viaje</string>
+    <string name="delete_trip_confirmation">¿Estás seguro de que quieres eliminar este viaje? Esta acción no se puede deshacer.</string>
+    <string name="edit_day">Editar Día</string>
+    <string name="delete_day">Eliminar Día</string>
+    <string name="delete_day_confirmation">¿Estás seguro de que quieres eliminar este día y todas sus actividades? Esta acción no se puede deshacer.</string>
+    <string name="edit_activity">Editar Actividad</string>
+    <string name="delete_activity">Eliminar Actividad</string>
+    <string name="delete_activity_confirmation">¿Estás seguro de que quieres eliminar esta actividad? Esta acción no se puede deshacer.</string>
+    <string name="day_number_date">Día %1$d - %2$s</string>
+</resources> 

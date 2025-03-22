@@ -5,6 +5,26 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- Light Theme Colors -->
+    <color name="primary_light">#006C4C</color>
+    <color name="on_primary_light">#FFFFFF</color>
+    <color name="primary_container_light">#89F8C7</color>
+    <color name="on_primary_container_light">#002114</color>
+    <color name="secondary_light">#4C6358</color>
+    <color name="on_secondary_light">#FFFFFF</color>
+    <color name="secondary_container_light">#CEE9DA</color>
+    <color name="on_secondary_container_light">#092017</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="primary_dark">#6CDBAC</color>
+    <color name="on_primary_dark">#003826</color>
+    <color name="primary_container_dark">#005138</color>
+    <color name="on_primary_container_dark">#89F8C7</color>
+    <color name="secondary_dark">#B3CCBE</color>
+    <color name="on_secondary_dark">#1F352B</color>
+    <color name="secondary_container_dark">#354B41</color>
+    <color name="on_secondary_container_dark">#CEE9DA</color>
 </resources>
