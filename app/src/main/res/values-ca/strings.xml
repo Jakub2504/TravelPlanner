@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">FlyAway</string>
+
+    <!-- Common -->
+    <string name="save">Desar</string>
+    <string name="cancel">Cancel·lar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="error">Error</string>
+    <string name="success">Èxit</string>
+    <string name="back">Enrere</string>
+    <string name="app_logo_description">Logotip de l\'aplicació FlyAway</string>
+    <string name="retry">Tornar a provar</string>
+    <string name="close">Tancar</string>
+    <string name="open">Obrir</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inici</string>
+    <string name="nav_trips">Viatges</string>
+    <string name="nav_itinerary">Itinerari</string>
+    <string name="nav_settings">Configuració</string>
+    <string name="nav_about">Sobre Nosaltres</string>
+    <string name="nav_terms">Termes i Condicions</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="menu">Menú</string>
+
+    <!-- Language -->
+    <string name="language_english">Anglès</string>
+    <string name="language_spanish">Espanyol</string>
+    <string name="language_catalan">Català</string>
+    <string name="language_polish">Polonès</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="language_changed">Idioma canviat correctament</string>
+
+    <!-- Profile -->
+    <string name="profile">Perfil</string>
+    <string name="profile_name">Nom</string>
+    <string name="profile_email">Correu electrònic</string>
+    <string name="profile_phone">Número de telèfon</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="save_profile">Desar Perfil</string>
+    <string name="change_photo">Canviar foto</string>
+    <string name="profile_saved">Perfil desat correctament</string>
+    <string name="profile_title">El Meu Perfil</string>
+
+    <!-- Home Screen -->
+    <string name="welcome_message">Benvingut a FlyAway!</string>
+    <string name="create_trip">Crear Nou Viatge</string>
+    <string name="upcoming_trips">Pròxims Viatges</string>
+    <string name="no_trips_message">Encara no hi ha viatges planificats</string>
+    <string name="home_title">Els meus viatges</string>
+    <string name="view_trips">Veure viatges</string>
+    <string name="no_trips_yet">Encara no tens cap viatge</string>
+    <string name="create_trip_prompt">Crea el teu primer viatge per començar la teva aventura!</string>
+    <string name="your_trips">Els teus viatges</string>
+    <string name="days_count">%d dies</string>
+
+    <!-- Trip Screen -->
+    <string name="trip_details">Detalls del Viatge</string>
+    <string name="trip_name">Nom del Viatge</string>
+    <string name="destination">Destinació</string>
+    <string name="trip_destination">Destinació</string>
+    <string name="trip_dates">Dates</string>
+    <string name="trip_budget">Pressupost</string>
+    <string name="start_date">Data d\'inici</string>
+    <string name="end_date">Data de fi</string>
+    <string name="select_start_date">Seleccionar data d\'inici</string>
+    <string name="select_end_date">Seleccionar data de fi</string>
+    <string name="required_start_date">La data d\'inici és obligatòria</string>
+    <string name="required_end_date">La data de fi és obligatòria</string>
+
+    <!-- Itinerary Screen -->
+    <string name="itinerary">Itinerari</string>
+    <string name="add_activity">Afegir Activitat</string>
+    <string name="activity_name">Nom d\'Activitat</string>
+    <string name="activity_time">Hora</string>
+    <string name="activity_location">Ubicació</string>
+
+    <!-- Settings -->
+    <string name="settings">Configuració</string>
+    <string name="theme">Tema</string>
+    <string name="language">Idioma</string>
+    <string name="notifications">Notificacions</string>
+    <string name="currency">Moneda</string>
+
+    <!-- Authentication -->
+    <string name="login">Iniciar sessió</string>
+    <string name="login_title">Benvingut a FlyAway</string>
+    <string name="logout">Tancar sessió</string>
+    <string name="user_id">Usuari</string>
+    <string name="password">Contrasenya</string>
+    <string name="invalid_credentials">Credencials invàlides</string>
+    <string name="show_password">Mostrar contrasenya</string>
+    <string name="hide_password">Ocultar contrasenya</string>
+    <string name="login_error">Error d\'inici de sessió</string>
+    <string name="empty_username_error">El nom d\'usuari no pot estar buit</string>
+    <string name="empty_password_error">La contrasenya no pot estar buida</string>
+    <string name="password_length_error">La contrasenya ha de tenir almenys 6 caràcters</string>
+    <string name="test_credentials">Credencials de prova: admin/123456</string>
+
+    <!-- About -->
+    <string name="about">Sobre nosaltres</string>
+    <string name="about_title">Sobre nosaltres</string>
+    <string name="about_description">FlyAway és la teva aplicació per a planificar viatges de manera fàcil i ràpida.</string>
+    <string name="app_version">Versió 0.2.0</string>
+    <string name="version">Versió</string>
+    <string name="developers">Jakub Wysocki</string>
+    <string name="about_us_content">FlyAway és una aplicació de planificació de viatges dissenyada perquè l\'organització del teu viatge sigui sense esforç. La nostra missió és ajudar-te a crear experiències de viatge memorables amb el mínim de complicacions.</string>
+    <string name="about_contact">Contacta\'ns a: info@flyaway.com</string>
+
+    <!-- Terms & Conditions -->
+    <string name="terms">Termes i Condicions</string>
+    <string name="terms_title">Termes i Condicions</string>
+    <string name="terms_content">Aquestes són les condicions d\'ús de l\'aplicació FlyAway. En utilitzar FlyAway, acceptes complir aquestes condicions. L\'aplicació es proporciona "tal com és" sense cap garantia.</string>
+    <string name="privacy_policy">Política de Privacitat</string>
+    <string name="terms_last_updated">Última actualització: Maig 2023</string>
+
+    <!-- Creación de Viaje -->
+    <string name="trip_duration">Durada: %d dies</string>
+    <string name="add_day">Afegir Dia</string>
+    <string name="no_days_message">No hi ha dies afegits a aquest viatge. Afegeix-ne un per començar a planificar el teu itinerari!</string>
+    <string name="no_activities">No hi ha activitats per a aquest dia</string>
+    <string name="description">Descripció</string>
+    <string name="location">Ubicació</string>
+    <string name="start_time">Hora d\'inici</string>
+    <string name="end_time">Hora de fi</string>
+    <string name="select_time">Seleccionar Hora</string>
+    <string name="no_trip_found">No s\'ha trobat el viatge</string>
+
+    <!-- New strings for editing and deleting trips, days, and activities -->
+    <string name="edit_trip">Editar Viatge</string>
+    <string name="delete_trip">Eliminar Viatge</string>
+    <string name="delete_trip_confirmation">Estàs segur que vols eliminar aquest viatge? Aquesta acció no es pot desfer.</string>
+    <string name="edit_day">Editar Dia</string>
+    <string name="delete_day">Eliminar Dia</string>
+    <string name="delete_day_confirmation">Estàs segur que vols eliminar aquest dia i totes les seves activitats? Aquesta acció no es pot desfer.</string>
+    <string name="edit_activity">Editar Activitat</string>
+    <string name="delete_activity">Eliminar Activitat</string>
+    <string name="delete_activity_confirmation">Estàs segur que vols eliminar aquesta activitat? Aquesta acció no es pot desfer.</string>
+    <string name="day_number_date">Dia %1$d - %2$s</string>
+</resources> 
