@@ -4,10 +4,6 @@
 
 Seguimos el modelo GitFlow para la gestión de ramas:
 
-### Ramas Principales
-- `main`: Código en producción
-- `develop`: Rama principal de desarrollo
-
 ## Flujo de Trabajo
 
 1. Crear una nueva rama desde `develop`:
