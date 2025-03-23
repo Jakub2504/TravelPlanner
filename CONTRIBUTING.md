@@ -8,12 +8,6 @@ Seguimos el modelo GitFlow para la gestión de ramas:
 - `main`: Código en producción
 - `develop`: Rama principal de desarrollo
 
-### Ramas de Soporte
-- `feature/*`: Nuevas características
-- `bugfix/*`: Correcciones de errores
-- `release/*`: Preparación de releases
-- `hotfix/*`: Correcciones urgentes en producción
-
 ## Flujo de Trabajo
 
 1. Crear una nueva rama desde `develop`:
